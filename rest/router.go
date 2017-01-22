@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 	"github.com/gorilla/mux"
-	"github.com/schilli69/src/gatewayComTracer/common"
+	"github.com/globaspect/goresttrace/common"
 )
 
 func NewRouter() *mux.Router {
